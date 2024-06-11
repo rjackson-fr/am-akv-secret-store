@@ -44,7 +44,7 @@ Create secrets and/or certificates for AM to use in AKV.  Note that secret names
    ![](images/img3.png)
 
 
-The next step is to create a mapping for the secret. Several AM features require the use of secrets for signing and encryption. For each requirement, AM has a secret ID. To provide AM with the required secret, map one or more aliases from the secret stores you configure to each of the secret IDs. These mappings allow you to choose which are the active aliases, and rotate them when they become expired or compromised.  The alias for this plugin regers to the "version" string of the secret in AKV.
+The next step is to create a mapping for the secret. Several AM features require the use of secrets for signing and encryption. For each requirement, AM has a secret ID. To provide AM with the required secret, map one or more aliases from the secret stores you configure to each of the secret IDs. These mappings allow you to choose which are the active aliases, and rotate them when they become expired or compromised.  The alias for this plugin refers to the "version" string of the secret in AKV.
 
 To map alias in AKV Secret Store:
 * To map secrets within a global secret store: Navigate to Configure > Secret Stores.
