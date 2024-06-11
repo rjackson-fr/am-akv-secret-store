@@ -16,8 +16,8 @@ AKV hosts 3 kinds of secrets:
 The backend plugin uses Azure Java SDK: https://azure.github.io/azure-sdk-for-java/keyvault.html
 
 The plugin can use the "DefaultAzureCredential" class for authenticated which is a "passwordless" authentication method.
-https://learn.microsoft.com/en-us/java/api/com.azure.identity.defaultazurecredential?view=azure-java-stable
-This will inherit the loggin session from the environment, vm service account, Azure CLI, etc
+https://learn.microsoft.com/en-us/java/api/com.azure.identity.defaultazurecredential?view=azure-java-stable.
+This will inherit the login session from the environment, vm service account, Azure CLI, etc
 
 If provided credentials, it can also use the "ClientSecretCredential" class for authentication:
 https://learn.microsoft.com/en-us/java/api/com.azure.identity.clientsecretcredential?view=azure-java-stable
